@@ -1,4 +1,4 @@
-<phpunit>
+<phpunit bootstrap="src/autoload.php">
     <testsuites>
         <testsuite name="Stack tests">
             <file>tests/StackTest.php</file>
