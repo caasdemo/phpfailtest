@@ -12,8 +12,8 @@ class CurrencyTest extends PHPUnit_Framework_TestCase
 
     public function testInitialValues()
     {
-        $this->assertEquals($this->currency->getAmount(), 0);
-        $this->assertEquals($this->currency->getCurrency(), "");
+        $this->assertEquals($this->currency->getAmount(), 1);
+        $this->assertEquals($this->currency->getCurrency(), "t");
     }
 
 }
